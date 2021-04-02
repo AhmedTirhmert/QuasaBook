@@ -1,0 +1,44 @@
+{
+    "Users": {
+        "UserID1": {
+            "name": "ahmed",
+            "email": "ahmedtoto@fmail.cil",
+            "online": true
+        },
+        "UserID2": {
+            "name": "Toto",
+            "email": "abdoToto@fmail.cil",
+            "online": false
+        }
+    },
+    "Chats": {
+        "UserID1": {
+            "UserID2": {
+                "MessageID1": {
+                    "text": "Wech a bro",
+                    "from": "me",
+                    "time": "222222222"
+                },
+                "MessageID2": {
+                    "text": "hani",
+                    "from": "them",
+                    "time": "222222222"
+                }
+            }
+        },
+        "UserID2": {
+            "UserID1": {
+                "MessageID1": {
+                    "text": "Wech a bro",
+                    "from": "them",
+                    "time": "222222222"
+                },
+                "MessageID2": {
+                    "text": "hani",
+                    "from": "me",
+                    "time": "222222222"
+                }
+            }
+        }
+    }
+}
